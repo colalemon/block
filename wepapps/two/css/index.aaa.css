@@ -301,13 +301,13 @@ ul, ol {
 	height : 17px;
 	display: inline-block;
 	margin-top: 15px;
-	background: url(../img/country.png)no-repeat ;
+	background: url(../images/country.png)no-repeat ;
 }
 #navbar .down{
 	width : 25px;
 	height : 18px;
 	display: none;
-	background: url(../img/country.png)no-repeat 0 -26px;
+	background: url(../images/country.png)no-repeat 0 -26px;
 }
 
 @media(min-width:768px) {
@@ -368,7 +368,7 @@ ul, ol {
 	top: 22%;
 	bottom: 0;
 	z-index : 13;
-	background:url(../img/sq-bg.png)no-repeat ;
+	background:url(../images/sq-bg.png)no-repeat ;
 	background-size:cover;
 	-webkit-transform:translate3d(0,0,0);
 	-moz-transform:translate3d(0,0,0);
@@ -665,11 +665,11 @@ ul, ol {
 	
 }
 .section-title h2:after{
-	background:url(../img/right.png) ;
+	background:url(../images/right.png) ;
 	bottom: 0;
 }
 .section-title h2:before{
-	background:url(../img/left.png) ;
+	background:url(../images/left.png) ;
 	top: 0;
 	left: -38px;	
 }
@@ -763,7 +763,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6f7275', end
 	overflow:hidden;
 	position: relative;
 	background: #ffffff; /* Old browsers */
-	background:url(../img/teambg.png)no-repeat 100%;
+	background:url(../images/teambg.png)no-repeat 100%;
 	background-size:cover;
 }
 #team .special{
@@ -855,7 +855,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6f7275', end
 .team-word .team-word-step{
 	width : 100%;
 	height : 10px;
-	background:url(../img/step.png);
+	background:url(../images/step.png);
 }
 .web{
 	margin-bottom: 60px;
@@ -1014,7 +1014,7 @@ img.img-circle.team-img {
 	height : 580px;
 	margin:0 auto;
 	border-radius: 50%;
-	background: url(../img/inner-bg.png)no-repeat black;
+	background: url(../images/inner-bg.png)no-repeat black;
 	background-size: cover;
 	position:relative;
 }
@@ -1319,10 +1319,10 @@ img.img-circle.team-img {
 	margin-bottom: 60px;
 }
 .application-sp h2:before{
-	background:url(../img/leftwhite.png)no-repeat 100%;
+	background:url(../images/leftwhite.png)no-repeat 100%;
 }
 .application-sp h2:after{
-	background:url(../img/rightwhite.png)no-repeat 100%;
+	background:url(../images/rightwhite.png)no-repeat 100%;
 }
 .application .application-main ul {
 	width: 100%;
@@ -1354,7 +1354,7 @@ img.img-circle.team-img {
 	position:relative;
 	margin:0 auto;
 	-webkit-font-smoothing: antialiased;
-	background: url(../img/itrbg.png)no-repeat 100%;
+	background: url(../images/itrbg.png)no-repeat 100%;
 	-webkit-transition: all 0.1s ease-out;
 	-moz-transition: all 0.1s ease-out;
 	-ms-transition: all 0.1s ease-out;
@@ -1421,7 +1421,7 @@ img.img-circle.team-img {
 	height : 585px;
 	margin-top: 80px;
 	position: relative;
-	background:url(../img/publishmain.png ) no-repeat ;
+	background:url(../images/publishmain.png ) no-repeat ;
 	background-size: 100%;
 }
 .issue-main .issue-publish{
@@ -1486,7 +1486,7 @@ img.img-circle.team-img {
 	top: 50%;
 	margin-top: -124px;
 	left : 0;
-	background: url(../img/publishicon.png)no-repeat 100%;
+	background: url(../images/publishicon.png)no-repeat 100%;
 	background-size:cover;
 }
 
@@ -1500,7 +1500,7 @@ img.img-circle.team-img {
 .mobile-main{
 	height : 100%;
 	position : relative;
-	background: url(../img/publishmain-l.png)no-repeat 100%;
+	background: url(../images/publishmain-l.png)no-repeat 100%;
 	background-size : 100% 100%;
 	margin:0 auto ;
 }
@@ -1537,7 +1537,7 @@ img.img-circle.team-img {
 	margin-bottom: 10px;
 }
 .mobile-main .issue-topimg{
-	background: url(../img/publishicon.png)no-repeat 100%;
+	background: url(../images/publishicon.png)no-repeat 100%;
 	background-size: cover;
 	position:absolute;
 	left: 50%;
@@ -1726,7 +1726,7 @@ img.img-circle.team-img {
 /* end of 常见问题 */
 /* Testimonials Section */
 #testimonials {
-	background: url(../img/testimonial-bg.jpg);
+	background: url(../images/testimonial-bg.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	color: #ddd;
@@ -1858,7 +1858,7 @@ img.img-circle.team-img {
 	margin-right: 10px;
 }
 .propafanda-email .propafanda-grammar .china{
-	background: url(../img/country.png)no-repeat ;
+	background: url(../images/country.png)no-repeat ;
 	position:relative;
 }
 .propafanda-email .propafanda-grammar .china:after{
@@ -1870,7 +1870,7 @@ img.img-circle.team-img {
 	color: #ffffff;
 }
 .propafanda-email .propafanda-grammar .english{
-	background: url(../img/country.png)no-repeat 13px -27px;
+	background: url(../images/country.png)no-repeat 13px -27px;
 	margin-right:70px;
 }
 

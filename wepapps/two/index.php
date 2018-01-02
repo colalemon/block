@@ -3,15 +3,15 @@
 <html>
 
 <head>
-    <title>学链</title>
+    <title>医美链</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="学链,学链社群,学币,学习宝,区块链,以太坊,比特币,EOS,在线教育,Dapp,EKT,Blockchain,K12,教育,社群,分布式" />
-    <meta name="description" content="学链社群" />
+    <meta name="keywords" content="医美链,医美链社群,医币,学习宝,区块链,以太坊,比特币,EOS,在线教育,Dapp,EKT,Blockchain,K12,教育,社群,分布式" />
+    <meta name="description" content="医美链社群" />
     <meta name="baidu-site-verification" content="DPMQyjzopc" />
-    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/images/logo.png" type="image/x-icon">
     <link href="css/bootstrap.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="fonts/font-common/style.css">
-    <link rel="stylesheet" href="css/index.aaa.css">
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/fonts/font-common/style.css">
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/index.aaa.css">
 </head>
 
 <body>
@@ -24,7 +24,7 @@
                         <i class="icon-uniE012iconfont"></i>
                     </button>
                     <a class="navbar-brand page-scroll" href="#page-top">
-                    <img src="./img/logo.png" alt="学链" class="logo-icon"><span> EKT学链</span></a>
+                    <img src="<?php bloginfo('template_url'); ?>/images/logo.png" alt="医美链" class="logo-icon"><span>ATC 医美链</span></a>
                 </div>
         
                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -38,7 +38,7 @@
                             <a class="page-scroll" href="#page-top">首页</a>
                         </li>
                         <li>
-                            <a class="page-scroll" href="#introduce">学链简介</a>
+                            <a class="page-scroll" href="#introduce">医美链简介</a>
                         </li>
                         <li>
                             <a class="page-scroll" href="#team">管理团队</a>
@@ -80,10 +80,10 @@
                     
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2">
-                            <h1 class="intro-ekt-title">EKT 学链 </h1>
-                            <p class="intro-eng">Education Knowledge Togetherness</p>
+                            <h1 class="intro-ekt-title">医美链 </h1>
+                            <p class="intro-eng">Aiter Medical Chain Essence</p>
                             <div class="download-pdf">
-                                <a href="./pdf/EKT学链白皮书.pdf" title="EKT学链白皮书" target="_blank" >下载白皮书</a>
+                                <a href="./pdf/医美链.pdf" title="医美链" target="_blank" >下载白皮书</a>
                                 <span class="download-paper"></span>
                                 <a href="#issue" class="page-scroll">筹集信息</a>
                             </div>                          
@@ -106,13 +106,16 @@
             <div class="intr-container">
                 <div class="section-title center">
                     <div class="section-inner">
-                        <h2>学链是什么</h2>
+                        <h2>医美链是什么</h2>
                     </div>                    
                 </div>
                 <div class="space">
                     <p class="space-p">
-                        <span>学链是基于以太坊的分布式智能区块链在线教育社群，通过借助先进的区块链技术，</span>
-                        <span>学链拥有了前所未有的社群特征</span>
+                        <span>共享医美链ATC是全球首个基于区块链技术打造的专注于医疗美容行业资产数字化服务平台。<br>
+                            该平台采用智能合约机制，并通过区块链技术的去中心化、溯源性以及信息不可篡改等功能，<br>
+                            针对医疗美容行业构建的一个通用的数字资产共享生态，ATC的目标是实现智能合约，<br>
+                        即时支付及更高的可扩展性，为打造全球共享医美生态系统增加价值和实用性。</span>
+                       
                     </p>
                 </div>
                 <div class="intr-main">
@@ -121,21 +124,21 @@
                             <div class="answer service">
                                 <div class="answer-main ">
                                     <div class="whatImg ">
-                                        <img src="img/center.png" alt="">
+                                        <img src="<?php bloginfo('template_url'); ?>/images/center.png" alt="">
                                     </div>
                                     <h4>
                                         深度的去中心化 </br>
-                                        大幅度降低接受教育的成本
+                                        大幅度降低医美服务的成本
                                     </h4>
                                 </div>
                             </div>
                             <div class="answer service">
                                 <div class="answer-main">
                                     <div class="whatImg what-data">
-                                        <img src="img/what-data.png" alt="">
+                                        <img src="<?php bloginfo('template_url'); ?>/images/what-data.png" alt="">
                                     </div>
                                     <h4>
-                                        高度透明让渠道与付费用户 </br>
+                                        高度透明让渠道与医美顾客 </br>
                                         升级为社群活跃用户
                                     </h4>
                                 </div>
@@ -143,7 +146,7 @@
                             <div class="answer service">
                                 <div class="answer-main">
                                     <div class="whatImg what-open">
-                                        <img src="img/open.png" alt="">
+                                        <img src="<?php bloginfo('template_url'); ?>/images/open.png" alt="">
                                     </div>
                                     <h4>
                                         开放的大数据体系</br>
@@ -154,7 +157,7 @@
                             <div class="answer service">
                                 <div class="answer-main">
                                     <div class="whatImg what-autos">
-                                        <img src="img/auto.png" alt="">
+                                        <img src="<?php bloginfo('template_url'); ?>/images/auto.png" alt="">
                                     </div>
                                     <h4>
                                         社群的高度自治化</br>
@@ -165,7 +168,7 @@
                             <div class="answer service">
                                 <div class="answer-main">
                                     <div class="whatImg what-safe">
-                                        <img src="img/safe.png" alt="">
+                                        <img src="<?php bloginfo('template_url'); ?>/images/safe.png" alt="">
                                     </div>
                                     <h4>
                                         安全完善的代币机制 </br>
@@ -190,55 +193,46 @@
                 <div class="solve-container">
                     <!-- Container -->
                     <div class="section-title text-center center">
-                        <h2>学链如何解决在线教育的问题</h2>
+                        <h2>医美链如何解决医疗美容的痛点</h2>
                         <div class="clearfix"></div>
                     </div>
-                    <!-- <div class="solve-main">
-                        <ul>
-                            <li><span></span>学链拥有海量的用户，通过与知名教育机构合作，共同推荐课程内容，让用户享受一流的教育服务</li>
-                            <li><span></span>通过大数据+区块链技术，学链与教育内容合作方实现了数据共享，提供更有效的学习方法和内容</li>
-                            <li><span></span>学链通过智能合约，保证对课程传播者的分账比例透明、有效，且实时到账，让传播者无后顾之忧</li>
-                            <li><span></span>学链内的奖励机制，以学币为主，奖励多，升值空间大，可以有效调动用户传播的积极性和活跃度</li>
-                            <li><span></span>学链系统定期会向持有学币较多的用户，免费发放优质课程，大大降低了优质教育内容的获取成本</li>
-                        
-                        </ul>
-                    </div> -->
+                   
                     <div class="solve-bg">
                         <!-- 移动端显示图片 -->
-                        <img src="img/online.png" alt="" class="solve-bg-pc">
+                        <img src="<?php bloginfo('template_url'); ?>/images/online.png" alt="" class="solve-bg-pc">
                         <!-- pc端显示一下为了实现滑动效果 -->
                         <div class="solve-bg-m">
                             <div class="slove-m-items item-data">
-                                <span class="item-sq"><img src="img/yellow.png" alt=""></span>
+                                <span class="item-sq"><img src="<?php bloginfo('template_url'); ?>/images/yellow.png" alt=""></span>
                                 <span class="item-content"><span class="inner-text">大数据+区块链技术</span></span>
                             </div>
                             <div class="slove-m-items item-money">
-                                <span class="item-sq"><img src="img/yellow.png" alt=""></span>
-                                <span class="item-content"><span class="inner-text">零营销成本</br> 课程价格低廉</span></span>
+                                <span class="item-sq"><img src="<?php bloginfo('template_url'); ?>/images/yellow.png" alt=""></span>
+                                <span class="item-content"><span class="inner-text">零营销成本</br> 降低医美服务价格</span></span>
                             </div>
                             <div class="slove-m-items item-high">
-                                <span class="item-sq"><img src="img/yellow.png" alt=""></span>
-                                <span class="item-content"><span class="inner-text">用高价值学币</br> 激励推广者</span></span>
+                                <span class="item-sq"><img src="<?php bloginfo('template_url'); ?>/images/yellow.png" alt=""></span>
+                                <span class="item-content"><span class="inner-text">用高价值ATC</br> 激励推广者</span></span>
                             </div>
                             <div class="slove-m-items item-autobot ">
-                                <span class="item-sq"><img src="img/yellow.png" alt=""></span>
+                                <span class="item-sq"><img src="<?php bloginfo('template_url'); ?>/images/yellow.png" alt=""></span>
                                 <span class="item-content"><span class="inner-text">智能合约记录</br> 传播推广收益</span></span>
                             </div>
                             <div class="slove-m-items item-lot">
-                                <span class="item-sq"><img src="img/yellow.png" alt=""></span>
-                                <span class="item-content"><span class="inner-text">持有较多学币用户</br> 可免费获得优质课程</span></span>
+                                <span class="item-sq"><img src="<?php bloginfo('template_url'); ?>/images/yellow.png" alt=""></span>
+                                <span class="item-content"><span class="inner-text">持有较多ATC</br> 可免费获得医美服务</span></span>
                             </div>
                             <div class="slove-m-items item-share">
-                                <span class="item-sq"><img src="img/yellow.png" alt=""></span>
-                                <span class="item-content"><span class="inner-text">学习数据准确记录</br> 数据共享</span></span>
+                                <span class="item-sq"><img src="<?php bloginfo('template_url'); ?>/images/yellow.png" alt=""></span>
+                                <span class="item-content"><span class="inner-text">医美数据准确记录</br> 全球数据共享</span></span>
                             </div>
                             <div class="slove-m-items item-all">
-                                <span class="item-sq"><img src="img/yellow.png" alt=""></span>
-                                <span class="item-content"><span class="inner-text">同全球教育机构合作</br> 补充课程内容</span></span>
+                                <span class="item-sq"><img src="<?php bloginfo('template_url'); ?>/images/yellow.png" alt=""></span>
+                                <span class="item-content"><span class="inner-text">同全球医美机构合作</br> 共享医美资源</span></span>
                             </div>
                             <div class="slove-m-items item-lesson">
-                                <span class="item-sq"><img src="img/yellow.png" alt=""></span>
-                                <span class="item-content"><span class="inner-text">自有优质课程</br> 内容多样</span></span>
+                                <span class="item-sq"><img src="<?php bloginfo('template_url'); ?>/images/yellow.png" alt=""></span>
+                                <span class="item-content"><span class="inner-text">打通</br> 全球医美机构</span></span>
                             </div>
                         </div>
                     </div>
@@ -251,10 +245,10 @@
         <!-- the advantage of educhain -->
         <div class="advantage">
             <div class="section-title text-center center">
-                <h2> 学链竞争优势</h2>
+                <h2> 医美链核心优势</h2>
             </div>
             <div class="container">
-                <p class="advantage-title">学习宝作为成熟运营的去中心化社区，拥有的核心优势体现为三点</p>
+                <p class="advantage-title">医美链致力于打造全球共享医美社区，拥有的核心优势体现为三点</p>
            
                 <div class="advantage-main">
                     <ul class="advantage-container">
@@ -266,7 +260,7 @@
                                         <div class="hr"></div>
                                     </h2>
                                     <p>
-                                            学习宝成熟运营多年，拥有超过2000万用户。学链社区拥有超过60万活跃社区用户，50%以上为公立学校老师。
+                                           医美链团队成员运营医美领域多年，拥有超过100万用户，对接全球数百家医美机构。
                                     </p>
                                 </div> 
                             </div>
@@ -279,7 +273,7 @@
                                         <div class="hr"></div>
                                     </h2>
                                     <p>
-                                        作为唯一的去中心化教育资产，学链是帮助社区用户实现公平教育的最佳方式
+                                        作为全球首家去中心化医美数字资产，医美链是倡导回归医美本质，让人人都可以享受变美的权利
                                     </p>
                                 </div>
                             </div>
@@ -292,7 +286,7 @@
                                         <div class="hr"></div>
                                     </h2>
                                     <p>
-                                        借鉴区块链社区空投和分叉机制，学链提供海量的教育资源给社区用户，并激励有意愿传播的社区用户面向更广大的微信用户群传播。
+                                        借鉴区块链社区空投和分叉机制，医美链条提供全球的优质医美机构给社区用户，并激励有意愿传播的社区用户面向更广大的用户群传播
                                     </p>
 
                                 </div>
@@ -308,101 +302,16 @@
         <!-- the path of educhain -->
         <div class="path">
             <div class="section-title text-center center">
-                <h2> 学链发展路线图</h2>
+                <h2> 医美链发展路线图</h2>
             </div>
             <div class="container">
-                <img src="./img/onlinepath.png" alt="">
+                <img src="<?php bloginfo('template_url'); ?>/images/onlinepath.png" alt="">
             </div>
 
         </div>
         <!-- path of educhain end -->
 
-        <!-- first application of xuexibao -->
-        <!-- <div class="application">
-            <div class="application-bg" id="application-bg">
-                
-            </div>
-            <div class="application-word">
-                <div class="section-title text-center center application-sp">
-                    <h2> 学链系统内首个应用 学习宝</h2>
-                </div>
-                <div class="container">
-                    <div class="application-main">
-                        <ul>
-                            <li>
-                                <div class="application-item">
-                                    <div class="application-main-content">
-                                        <p class="blockP">
-                                            2014年4月</br>
-                                            学习宝团队成立
-                                        </p>
-                                        <p class="blockP">
-                                            2014年5月</br>
-                                            获金沙江创投 300万美元A轮投资
-                                        </p>
-                                        <p class="blockP">
-                                            2014年5月</br>
-                                            上线学习宝拍照搜题APP
-                                        </p>
-                                        <p>
-                                            2014年11月</br>
-                                            获软银中国2000 万美元B轮投资 题库阶段
-                                        </p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="application-item application-item-se">
-                                    <div class="application-main-content">
-                                        <p class="blockP">
-                                            2015年3月</br>
-                                            学习宝用户超过2000万
-                                        </p>
-                                        <p class="blockP">
-                                            2015年5月</br>
-                                            上线教师个人音频IP
-                                        </p>
-                                        <p class="blockP">
-                                            2015年10月</br>
-                                            用户超3000万，合作老师超10万名
-                                        </p>
-                                        <p>
-                                            2016年5月</br>
-                                            开展K12中小学1对1直播课业务
-                                        </p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="application-item application-item-th">
-                                    <div class="application-main-content">
-                                        <p class="blockP">
-                                            2017年9月</br>
-                                            学链社区产品开发完成并实际应用
-                                        </p>
-                                        <p class="blockP">
-                                            2017年11月</br>
-                                            学链社区用户超60万人</br>
-                                            成为全国最大的教育区块链社区
-                                        </p>
-                                        <p >
-                                            2018年</br>
-                                            学链基金会助力学习宝盈收超4亿</br>
-                                            成为K12赛道中优秀领跑者
-                                        </p>
-                                    
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                        
-    
-                    </div>
-                    
-    
-                </div>
-            </div>
-        </div> -->
+       
 
 
         <!-- end of first application -->
@@ -414,7 +323,7 @@
             </div> -->
             <div class="team-inner">
                 <div class="section-title text-center center">
-                    <h2 class="special"> 学链基金会管理团队</h2>
+                    <h2 class="special"> 医美链基金会管理团队</h2>
                 </div>
                 <div class="container team-container">
                     <div class="row">
@@ -423,11 +332,11 @@
                                 <div class="team-item">
                                     <div class="team-bg">
                                         <div class="team-inner">
-                                            <img src="img/adam.png" alt="">
+                                            <img src="<?php bloginfo('template_url'); ?>/images/adam.png" alt="">
                                         </div>
                                         <div class="team-bg-name">
                                             <p class="name">Adam Zhao</p>
-                                            <p class="colorName">学链基金会主席</p>
+                                            <p class="colorName">医美链基金会主席</p>
                                         </div>
                                     </div>
                                     <div class="team-word">
@@ -446,11 +355,11 @@
                                 <div class="team-item">
                                     <div class="team-bg">
                                         <div class="team-inner">
-                                            <img src="img/Mortiz.png" alt="">
+                                            <img src="<?php bloginfo('template_url'); ?>/images/Mortiz.png" alt="">
                                         </div>
                                         <div class="team-bg-name">
                                             <p class="name">Mortiz Neto</p>
-                                            <p class="colorName">学链基金会顾问</p>
+                                            <p class="colorName">医美链基金会顾问</p>
                                         </div>
                                     </div>
                                     <div class="team-word">
@@ -469,11 +378,11 @@
                                 <div class="team-item">
                                     <div class="team-bg">
                                         <div class="team-inner">
-                                            <img src="img/d.png" alt="">
+                                            <img src="<?php bloginfo('template_url'); ?>/images/d.png" alt="">
                                         </div>
                                         <div class="team-bg-name">
                                             <p class="name">Daniel Bar</p>
-                                            <p class="colorName">学链基金会顾问</p>
+                                            <p class="colorName">医美链基金会顾问</p>
                                         </div>
                                     </div>
                                     <div class="team-word">
@@ -492,11 +401,11 @@
                                 <div class="team-item">
                                     <div class="team-bg">
                                         <div class="team-inner">
-                                            <img src="img/tim.png " alt="">
+                                            <img src="<?php bloginfo('template_url'); ?>/images/tim.png " alt="">
                                         </div>
                                         <div class="team-bg-name">
                                             <p class="name">Tim.G</p>
-                                            <p class="colorName">学链基金会顾问</p>
+                                            <p class="colorName">医美链基金会顾问</p>
                                         </div>
                                     </div>
                                     <div class="team-word">
@@ -515,11 +424,11 @@
                                 <div class="team-item">
                                     <div class="team-bg">
                                         <div class="team-inner">
-                                            <img src="img/jack.png" alt="">
+                                            <img src="<?php bloginfo('template_url'); ?>/images/jack.png" alt="">
                                         </div>
                                         <div class="team-bg-name">
                                             <p class="name">Jack Huang</p>
-                                            <p class="colorName">学链基金会顾问</p>
+                                            <p class="colorName">医美链基金会顾问</p>
                                         </div>
                                     </div>
                                     <div class="team-word">
@@ -538,11 +447,11 @@
                                 <div class="team-item">
                                     <div class="team-bg">
                                         <div class="team-inner">
-                                            <img src="img/zhouxun.png " alt="">
+                                            <img src="<?php bloginfo('template_url'); ?>/images/zhouxun.png " alt="">
                                         </div>
                                         <div class="team-bg-name">
                                             <p class="name">Allen Zhou</p>
-                                            <p class="colorName">学链首席技术官</p>
+                                            <p class="colorName">医美链首席技术官</p>
                                         </div>
                                     </div>
                                     <div class="team-word">
@@ -561,11 +470,11 @@
                                 <div class="team-item">
                                     <div class="team-bg">
                                         <div class="team-inner">
-                                            <img src="img/xj.png" alt="">
+                                            <img src="<?php bloginfo('template_url'); ?>/images/xj.png" alt="">
                                         </div>
                                         <div class="team-bg-name">
                                             <p class="name">肖剑</p>
-                                            <p class="colorName">学链社区营销顾问</p>
+                                            <p class="colorName">医美链社区营销顾问</p>
                                         </div>
                                     </div>
                                     <div class="team-word">
@@ -584,11 +493,11 @@
                                 <div class="team-item">
                                     <div class="team-bg">
                                         <div class="team-inner">
-                                            <img src="img/lang.png" alt="">
+                                            <img src="<?php bloginfo('template_url'); ?>/images/lang.png" alt="">
                                         </div>
                                         <div class="team-bg-name">
                                             <p class="name">William Lang</p>
-                                            <p class="colorName">学链基金会COO</p>
+                                            <p class="colorName">医美链基金会COO</p>
                                         </div>
                                     </div>
                                     <div class="team-word">
@@ -619,17 +528,17 @@
                     </div>
                     <div class="issue-publish">
                         <h2>
-                            EKT学链</br>
+                            医美链</br>
                             筹集信息
                         </h2>
-                        <p class="issue-paper"><a href="./pdf/EKT学链白皮书.pdf" title="EKT学链白皮书" target="_blank">EKT学链白皮书 点击查看</a></p>
+                        <p class="issue-paper"><a href="./pdf/医美链.pdf" title="医美链白皮书" target="_blank">医美链白皮书 点击查看</a></p>
                     </div>
                     <div class="issue-table">
                         <table>
                             <tbody>
                                 <tr>
                                     <td>项目名称: </td>
-                                    <td>学链</td>
+                                    <td>医美链</td>
                                 </tr>
                                 <tr>
                                     <td>发行时间: </td>
@@ -674,10 +583,10 @@
                         <div class="issue-container">
                             <div class="issue-publish">
                                 <h2>
-                                    EKT学链筹集信息
+                                    医美链筹集信息
                                 </h2>
                                 <p class="issue-paper">
-                                    <a href="./pdf/EKT学链白皮书.pdf" title="EKT学链白皮书" target="_blank">EKT学链白皮书 点击查看</a>
+                                    <a href="./pdf/医美链白皮书.pdf" title="医美链白皮书" target="_blank">医美链白皮书 点击查看</a>
                                 </p>
                             </div>
                             <div class="issue-table">
@@ -858,7 +767,7 @@
                     <li>
                         <div class="propafanda-weixin propafanda-filter">
                             <div class="innerimg">
-                                <img src="img/weixiner.png" alt="">
+                                <img src="<?php bloginfo('template_url'); ?>/images/weixiner.png" alt="">
                             </div>
                             <p>关注微信公众号</p>
                         </div>
@@ -868,7 +777,7 @@
                     <li>
                         <div class="propafanda-qq propafanda-filter">
                             <div class="innerimg">
-                                <img src="img/qqer.png" alt="">
+                                <img src="<?php bloginfo('template_url'); ?>/images/qqer.png" alt="">
                             </div>
                             <p>加入官方QQ群</p>
                         </div>
@@ -878,7 +787,7 @@
                     <li>
                         <div class="propafanda-weibo propafanda-filter">
                             <div class="innerimg">
-                                <img src="img/weiboer.png" alt="">
+                                <img src="<?php bloginfo('template_url'); ?>/images/weiboer.png" alt="">
                             </div>
                             <p>关注新浪微博</p>
                         </div>
@@ -912,22 +821,22 @@
                     <ul class="row">
                         <li class="partner-li col-xs-3">
                             <div class="partner-img">
-                                <img src="./img/xuexibaoapp.png" alt="" class="xuexibao">
+                                <img src="<?php bloginfo('template_url'); ?>/images/xuexibaoapp.png" alt="" class="xuexibao">
                             </div>
                         </li>
                         <li class="partner-li col-xs-3">
                             <div class="partner-img">
-                                <img src="./img/jingtu.png" alt="">
+                                <img src="<?php bloginfo('template_url'); ?>/images/jingtu.png" alt="">
                             </div>
                         </li>
                         <li class="partner-li col-xs-3">
                             <div class="partner-img">
-                                <img src="./img/newflag.png" alt="" class="xuexibao">
+                                <img src="<?php bloginfo('template_url'); ?>/images/newflag.png" alt="" class="xuexibao">
                             </div>
                         </li>
                         <li class="partner-li col-xs-3">
                             <div class="partner-img">
-                                <img src="./img/tui.png" alt="">
+                                <img src="<?php bloginfo('template_url'); ?>/images/tui.png" alt="">
                             </div>
                         </li>
                     </ul>
@@ -940,20 +849,20 @@
 
 
 
-    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
-    <script type="text/javascript" src="js/jquery.particleground.min.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.particleground.min.js"></script>
 
-    <script type="text/javascript" src='js/dat.gui.min.js'></script>
-    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src='<?php bloginfo('template_url'); ?>/js/dat.gui.min.js'></script>
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/index.js"></script>
 
     <!-- <script type="text/javascript" src="js/TweenLite.min.js"></script>
     <script type="text/javascript" src="js/EasePack.min.js"></script>
     <script type="text/javascript" src="js/rAF.js"></script>
     <script type="text/javascript" src="js/indexcanvas.js"></script> -->
 
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/SmoothScroll.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/SmoothScroll.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/main.js"></script>
 </body>
 
 </html>
